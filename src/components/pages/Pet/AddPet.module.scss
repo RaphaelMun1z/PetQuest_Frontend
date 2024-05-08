@@ -1,0 +1,33 @@
+.petFormSection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 3em auto;
+
+    .header {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 2em;
+
+        h1 {
+            font-size: 40pt;
+            font-weight: 400;
+            color: orange;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 17pt;
+            font-weight: 300;
+            color: #575656;
+            max-width: 500px;
+        }
+    }
+}

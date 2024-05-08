@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 20em;
+    min-height: calc(100vh - 330px);
+    padding: 1em;
+}

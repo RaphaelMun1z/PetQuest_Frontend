@@ -1,0 +1,134 @@
+.petsSection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2em;
+
+    .header {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 2em;
+
+        h1 {
+            font-size: 40pt;
+            color: orange;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 17pt;
+            font-weight: 300;
+            color: #575656;
+        }
+    }
+
+    .petsContainer {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+        gap: 20px 1%;
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            width: 24%;
+            height: fit-content;
+            min-height: 400px;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            flex: 0 1 24%;
+            border-radius: 20px;
+            padding: 1em;
+            gap: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+
+            img {
+                width: 100%;
+                object-position: center;
+            }
+
+            h3 {
+                font-size: 20pt;
+                font-weight: 700;
+                color: orange;
+            }
+
+            h5 {
+                font-size: 14pt;
+                font-weight: 700;
+                color: orange;
+                letter-spacing: 1px;
+            }
+
+            a {
+                position: relative;
+                display: flex;
+                height: fit-content;
+                width: fit-content;
+                background-color: orange;
+                border-radius: 10px;
+                padding: 0.5em 1em;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 600;
+                cursor: pointer;
+                box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+                font-size: 13pt;
+                min-width: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                transition: all 0.1s ease-in-out;
+                margin-top: 10px;
+
+                &:hover {
+                    opacity: .5;
+                    transform: scale(0.95);
+                    box-shadow: none;
+                    z-index: 10;
+                    transition: all .1s ease-in-out;
+                }
+            }
+
+            p {
+                font-size: 20pt;
+                font-weight: 700;
+                color: #2cdf2c;
+                pointer-events: none;
+            }
+        }
+
+        .adopted {
+            background-color: #2cdf2c;
+            border: 2px solid #fff;
+
+            p {
+                color: #fff;
+            }
+
+            h5 {
+                color: #fff;
+            }
+
+            h3 {
+                color: #fff;
+            }
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+}

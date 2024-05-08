@@ -1,0 +1,126 @@
+.petFormSection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2em;
+
+    .header {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 2em;
+
+        h1 {
+            font-size: 40pt;
+            font-weight: 400;
+            color: orange;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 17pt;
+            font-weight: 300;
+            color: #575656;
+        }
+    }
+
+    .dataContainer {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        gap: 20px;
+
+        .imagesContainer {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: fit-content;
+            gap: 1%;
+
+            img {
+                position: relative;
+                display: flex;
+                width: 24%;
+                height: 300px;
+                object-fit: cover;
+                flex: 0 1 24%;
+                border-radius: 10px;
+            }
+        }
+
+        .info {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            width: fit-content;
+            height: fit-content;
+            gap: 10px;
+
+            p {
+                font-size: 20pt;
+                color: orange;
+                font-weight: 300;
+            }
+
+            .infoTitle {
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+
+        .button {
+            position: relative;
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            border: 2px solid rgb(14, 175, 14);
+            border-radius: 10px;
+            padding: .5em 1em;
+            font-size: 14pt;
+            color: rgb(14, 175, 14);
+            background-color: transparent;
+            cursor: pointer;
+            transition: all .1s ease-in-out;
+
+            &:hover {
+                transition: all .1s ease-in-out;
+                background-color: rgb(14, 175, 14);
+                color: #fff;
+            }
+        }
+
+        .noAccountMsg {
+            font-size: 14pt;
+            color: orange;
+            width: fit-content;
+            font-weight: 400;
+            margin-top: 1em;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-weight: 500;
+                border-radius: 10px;
+                background-color: #28a745;
+                color: #fff;
+                padding: .5em 1em;
+                margin: 0 5px;
+                cursor: pointer;
+                box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

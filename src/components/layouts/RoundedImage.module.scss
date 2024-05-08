@@ -1,0 +1,12 @@
+.roundedImage{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.roundedImage.px75{
+    width: 75px;
+    height: 75px;
+}

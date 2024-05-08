@@ -1,0 +1,24 @@
+.message {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: .7em 4em;
+    min-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 10px auto;
+    font-size: 13pt;
+    background-color: #fff;
+}
+
+.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.error {
+    background-color: #c82333;
+    color: #fff;
+}
