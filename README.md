@@ -5,7 +5,7 @@
 ##
 
 ### 📄 Descrição
-<p>&emsp;...</p>
+<p>&emsp;PetQuest é um sistema de adoção de animais de estimação, desenvolvido com React e NodeJs. Este projeto oferece uma plataforma onde os usuários podem anunciar animais para adoção e também encontrar animais para adotar.</p>
 
 ##
 
