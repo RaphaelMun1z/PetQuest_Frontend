@@ -10,7 +10,7 @@
 ##
 
 ### 💡 Proposta
-<p>&emsp;...</p>
+<p>&emsp;A motivação para desenvolver o "PetQuest" veio do desejo de criar uma solução tecnológica que promova a adoção de animais de estimação, contribuindo para a conexão entre pessoas que desejam adotar e aqueles que precisam encontrar lares para seus animais. Este projeto busca não apenas facilitar esse processo, mas também incentivar a responsabilidade e o cuidado com os animais, ao mesmo tempo em que exploro minhas habilidades no desenvolvimento de plataformas fullstack.</p>
 
 ##
 
